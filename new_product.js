@@ -24,6 +24,45 @@ const CONFIG = {
     DELIVERY_BTN_TEXT: "📥 Тайлан татах"
   },
 
+  // ==================================================================================
+  // 📜 FULL "GOLD STANDARD" REFERENCE TEXTS (STYLE GUIDE ONLY)
+  // ==================================================================================
+  REFERENCES: {
+    PART_1: `1-р хэсэг. ЯЗГУУР МӨН ЧАНАР: Жилүүдийн Ивээл ба Харш
+Эхлээд та хоёрын төрсөн жилийн мөн чанарыг тодорхойлбол... Монгол зурхайн гүн ухаанд хоёр амьтан нь хоорондоо ямар барилдлагатай байдаг тул суурь харилцаа нь ямар байхыг илтгэнэ. Тэдний харилцаанд сүүдэр тусах уу, амар амгалан зонхилох уу.
+🐉 Эрэгтэй нь [Амьтан] жилтэй тул байгалийн өгөгдөл нь... (амьтны онцлог, манлайлагч эсвэл нямбай чанар). Түүний [Махбод] нь түүнийг илүү шийдэмгий, хатуужилтай эсвэл уян хатан гэдгийг харуулна.
+🐔 Эмэгтэй нь [Амьтан] жилтэй тул төрөлхийн... (амьтны онцлог). Түүний [Махбод] нь түүнийг ямар болгож, хурц занг нь хэрхэн зөөлрүүлдэг эсвэл хурцалдаг.
+💖 Та хоёрын жилийн махбодын харилцааг шинжвэл маш онцгой зохицол эсвэл харш харагдаж байна. Учир нь эрэгтэйн махбод нь эмэгтэйн махбодыг төрүүлдэг үү, эсвэл сүйтгэдэг үү. Үүнийг зурхайн ухаанд юу гэж үздэг бөгөөд энэ нь бодит амьдрал дээр юу гэсэн үг юм.
+🔑 Дүгнэж хэлэхэд [Амьтан], [Амьтан] хоёр нь жилийн хувьд ямар барилдлагатай бөгөөд махбодын хувьд ямар тул та хоёрын хоорондын язгуур мөн чанарын зохицол ямар байна. Гол анхаарах зүйл нь юу вэ.`,
+
+    PART_2: `2-р хэсэг. ЭРЧИМ ХҮЧНИЙ НИЙЛЭМЖ: Махбодын Зохицол
+Энэ хэсэгт бид та хоёрын зөвхөн төрсөн жил бус, тухайн жилийг удирдаж буй байгалийн суурь энерги буюу "Махбод"-ын харилцааг гүнзгийрүүлэн авч үзнэ.
+💧 Эрэгтэй нь [Махбод], эмэгтэй нь [Махбод] байгаа нь энергийн солилцооны хувьд "Төрүүлэгч ба Төрөгдөгч" эсвэл "Харш" гэсэн урсгалыг үүсгэдэг. Яагаад гэвэл байгаль дээр энэ хоёр махбод хэрхэн харилцдаг тул амьдрал дээр бие биенээ хэрхэн тэтгэдэг эсвэл дардаг.
+🌊 Сэтгэл хөдлөлийн хэмнэлийн хувьд та хоёр бие биеэ хэрхэн нөхөх вэ. Эрэгтэй нь ямар хариу үйлдэл үзүүлж, эмэгтэй нь яаж зөөлрүүлэх эсвэл хурцатгах вэ.
+🩺 Эрүүл мэндийн болон бие махбодын нийцлийн тухайд энэ хоёр махбод нь бие биедээ "эм" эсвэл "хор" болдог эсэх. Аль эрхтэн тогтолцоог тэтгэх эсвэл ядраах.
+🌱 Эцэст нь дүгнэхэд, энэхүү махбодын зохицол нь та хоёрын харилцааг ямар болгож байна. Ганцхан анхаарах зүйл нь юу вэ.`,
+
+    PART_3: `3-р хэсэг. ОЮУН САНААНЫ ХОЛБООС: Мэнгэний Таарамж
+🧠 Энэ хэсэгт та хоёрын сэтгэлгээний онцлог, амьдралыг үзэх үзэл болон оюун санааны нийцлийг "Мэнгэ"-ний зурхайгаар тайлбарлая. Тооцоолж үзвэл эрэгтэй нь [Мэнгэ], эмэгтэй нь [Мэнгэ] байна. Энэ нийлэмж нь Монгол зурхайд ямар барилдлага гэж буудаг.
+🔥 Эрэгтэйн мэнгэ нь байгалийн мөн чанараараа ямар махбодыг илтгэж, оюун санааны хувьд ямар онцлогтой байх вэ.
+⚔️ Эмэгтэйн мэнгэ нь ямар махбодыг илтгэж, оюун санааны хувьд ямар зарчимтай байх вэ.
+💥 Та хоёрын харилцааг ингэж нэрлэсний учир нь юу вэ? Оюун санааны хувьд бие биетэйгээ хэрхэн мөргөлдөх эсвэл нийлж нэгдэх вэ?
+🤝 Энэ харилцаанд гүн утга учир бий. Та хоёр бие биенийхээ сул талыг хэрхэн зөвөөр хандаж, бие биеэ хэрхэн хөгжүүлэх вэ.`,
+
+    PART_4: `4-р хэсэг. АМЬДРАЛЫН ХЭМНЭЛ: Суудлын Өнцөг & Гал Голомт
+🏠 Энэ хэсэг нь та хоёрын өдөр тутмын ахуй амьдрал, гэр орны уур амьсгал, санхүүгийн удирдлага болон гал тогоонд хэрхэн зохицохыг харуулна.
+🔥 Эрэгтэй нь [Суудал] суудалтай. Энэ нь ямар зүг, улирал, бэлгэдэлтэй вэ. Ийм суудалтай хүн гэр бүлдээ ямар хэв маягийг авчирдаг.
+⛰️ Эмэгтэй нь [Суудал] суудалтай. Энэ нь гэр бүлдээ ямар тогтвортой байдал эсвэл хөдөлгөөнийг авчирдаг вэ.
+⚠️ Суудлын нийцлийг шинжвэл ямар харилцаа үүсэж байна. Энэ нь амьдрал дээр яг юу гэсэн үг вэ? Санхүүгийн тал дээр хэн нь үрж, хэн нь хадгалах гэх мэт.
+☯️ Гэхдээ бүү санаа зов, Зурхай бол онош, Дом бол эмчилгээ. Та хоёрын энэ зөрчлийг арилгахын тулд гэрийнхээ уур амьсгалд ямар өнгө, бэлгэдлийг тэнцвэртэй оруулах хэрэгтэй вэ (Засал).`,
+
+    PART_5: `5-р хэсэг. ҮЙЛИЙН ҮР БА ИРЭЭДҮЙН ЗУРАГЛАЛ Нэгдсэн Дүгнэлт
+🔮 Та хоёрын харилцааг нэг үгээр тодорхойлбол... (үйлийн үрээр учирсан, эсвэл бие биеэ нөхөх холбоо). Яагаад уулзсан бэ?
+🔗 Ирээдүйд юуг анхаарах вэ? Ямар сорилтууд тулгарах вэ? Тэдгээр сорилтууд нь та хоёрыг салгах биш, улам бэхжүүлэх боломж гэж харах хэрэгтэй.
+️ Та хоёрын аз жаргалын түлхүүр буюу дом нь юу вэ? Таван махбодыг харилцаандаа хэрхэн ухамсартайгаар тэнцвэржүүлэх вэ.
+💎 Эцсийн үнэлгээгээр та хоёрын харилцаа хэдэн хувьтай байна. Хамтдаа уулсыг ч нүүлгэж чадах уу? Сайн сайхныг ерөөе!`
+  },
+
   TSAGAAN_SAR_MAP: {
     1940: "02-08", 1941: "01-27", 1942: "02-15", 1943: "02-05", 1944: "02-24",
     1945: "02-13", 1946: "02-02", 1947: "01-22", 1948: "02-10", 1949: "01-29",
@@ -161,6 +200,9 @@ function getProperty(key) {
 // 🚀 ROBUST MAIN ENGINE (AUTO-HEALING)
 // ==========================================
 function main() {
+  const START_TIME = new Date().getTime();
+  const TIME_LIMIT_MS = 5 * 60 * 1000; // 5.0 minutes
+
   const lock = LockService.getScriptLock();
   if (!lock.tryLock(10000)) return;
 
@@ -180,6 +222,12 @@ function main() {
 
     for (let i = 1; i < rows.length; i++) {
       if (processedCount >= CONFIG.BATCH_SIZE) break;
+
+      // Premium Upgrade 2: Time Limit Safeguard
+      if (new Date().getTime() - START_TIME > TIME_LIMIT_MS) {
+        console.warn("Time limit approaching. Stopping early to prevent Google Apps Script timeout.");
+        break;
+      }
 
       const row = rows[i];
       const name = String(row[COLS.NAME] || "Эрхэм");
@@ -456,74 +504,114 @@ function generateSequentialReport(data, apiKey) {
 `;
 
   const SYSTEM_PROMPT = `
-  ROLE: Master Mongolian Astrologer. Tone: Calm, Respectful, Deep.
+  ROLE: You are an elite, highly intuitive Mongolian Astrologer & Philosopher. Tone: Deep, Literary, Respectful, Poetic but Practical. Use rich Mongolian vocabulary and nature/animal metaphors.
   LANGUAGE: Proper Mongolian Cyrillic ONLY.
 
-  >>> ХАТУУ ДҮРМҮҮД (ШУУД МӨРДӨХ): <<<
-  1. УРТ БОЛОН ДЭЛГЭРЭНГҮЙ БАЙДАЛ: Энэ хэсэг нь 700-800 орчим үгэнд багтах ёстой. Хэт нуршихгүй, утга төгөлдөр байх. "1500 үг бич" гэж хэзээ ч шаардахгүй.
-  2. ЭМОЖИНЫ ДҮРЭМ: Догол мөр бүрийн ЗӨВХӨН хамгийн эхэнд 1 ширхэг эможи тавина. Өгүүлбэр дунд эсвэл төгсгөлд эможи огт ашиглахыг ХОРИГЛОНО!
-  3. БҮТЭЦ: Ямар ч тохиолдолд Markdown форматын ОД (*) эсвэл ЧАГТ (#) тэмдэгт ашиглаж болохгүй! Зөвхөн цэвэр текст байдлаар бич.
+  >>> MASTER RULES (STRICTLY ENFORCED): <<<
+  1. ZERO META-TALK: NEVER use phrases like "Энэ хэсэгт бид...", "Дүгнэж хэлэхэд...", "Өнөөдөр бид тайлбарлах болно". Start analyzing IMMEDIATELY. Speak directly about the couple's karma and elements.
+  2. GOLD STANDARD STYLE: Write like a beautifully crafted essay. Use sophisticated structures (e.g., "Луу нь тэнгэрийн амьтан, эртнээс хаанчлах эрх мэдэл...", "Ус нь уян хатан, гүн гүнзгий...").
+  3. DYNAMIC METAPHORS: I will provide a STYLE GUIDE REFERENCE. This reference is ONLY for understanding the deep, philosophical tone. DO NOT blindly copy the specific animals (like Dragon, Rooster) or elements from the reference. You MUST dynamically adapt your metaphors and analysis to the ACTUAL DATA of the current couple.
+  4. MONGOLIAN GRAMMAR FOR ELEMENTS: When pairing an element with a year (animal), use proper Mongolian grammar: "Ус" becomes "Усан" (e.g., Усан тахиа), "Мод" becomes "Модон" (e.g., Модон луу), "Шороо" becomes "Шороон" (e.g., Шороон үхэр). Do NOT change "Гал" and "Төмөр" (e.g., Гал бар, Төмөр нохой). Also, ALWAYS use the word "жилтэй" (year), NEVER use "амьтантай" (animal).
+  5. NO REPETITION: Each PART has a distinct focus. Do NOT repeat the general traits of the animals or elements in subsequent parts. Assume the context carries over.
+  6. FORMATTING & EMOJIS:
+     - START EVERY SINGLE PARAGRAPH with EXACTLY ONE EMOJI relevant to the content (e.g., 🐉, 🌊, 🔥, ⛰️, ☯️). NEVER use emojis anywhere else.
+     - NEVER use Markdown asterisks (*) or hash (#) characters. Return ONLY PLAIN TEXT separated by double line breaks.
+  7. COMPLETENESS & LENGTH: NEVER cut off mid-sentence. Always finish your thoughts and provide a complete, well-rounded conclusion for your part. Aim for around 400 words, but prioritize COMPLETENESS over exact word counts.
   `;
 
+  // 1st CALL: Foundation (Animals & General Elements)
   const prompt1 = `
   ${SYSTEM_PROMPT}
-  TASK: Write PART 1 ONLY.
-  Make it approximately 500 words.
+  TASK: Write PART 1 ONLY (The Root/Foundation).
 
-  DATA FOR PART 1:
-  - Husband: ${male.animal}, Element: ${male.element}
-  - Wife: ${female.animal}, Element: ${female.element}
-  - Relation: ${relations.element}
-  START PART 1 WITH EXACTLY: "1-р хэсэг: ЯЗГУУР МӨН ЧАНАР - Жилүүдийн Ивээл ба Харш"
+  DATA:
+  - Эрэгтэй: ${male.year} оны ${male.element} махбодтой ${male.animal} ЖИЛТЭЙ
+  - Эмэгтэй: ${female.year} оны ${female.element} махбодтой ${female.animal} ЖИЛТЭЙ
+  - Жил болон Махбодын харилцаа: ${relations.element}
+
+  INSTRUCTIONS: Begin with exactly "1-р хэсэг. ЯЗГУУР МӨН ЧАНАР: Жилүүдийн Ивээл ба Харш".
+  Write beautifully about their foundational connection. First paragraph: Introduce their years and general compatibility. Second paragraph: Dive deep into the Husband's animal/element psychology (use animal traits). Third paragraph: Dive deep into the Wife's animal/element psychology. Fourth paragraph: Explain their specific elemental interaction (e.g., Эх хүүгийн барилдлага, or Харш) and what it means for their dynamic. Final paragraph: A philosophical conclusion of this part.
+
+  STYLE GUIDE REFERENCE (Model your structure, depth, and tone exactly after this):
+  ${CONFIG.REFERENCES.PART_1}
   `;
   const r1 = callGeminiAPI(prompt1, apiKey, CONFIG.TEMPERATURE);
 
+  // 2nd CALL: Energy Flow (Chemical Interaction)
   const prompt2 = `
   ${SYSTEM_PROMPT}
-  TASK: Write PART 2 ONLY.
-  Make it approximately 500 words.
+  TASK: Write PART 2 ONLY (Energy & Elemental Dynamics).
 
-  DATA FOR PART 2:
-  - Energy Flow: ${male.element} vs ${female.element}
-  START PART 2 WITH EXACTLY: "2-р хэсэг: ЭРЧИМ ХҮЧНИЙ НИЙЛЭМЖ - Махбодын Зохицол"
+  DATA:
+  - Эрэгтэйн махбод: ${male.element}
+  - Эмэгтэйн махбод: ${female.element}
+  - Махбодын эрчим хүчний урсгал: ${male.element} ба ${female.element} хоорондын харилцаа (${relations.element})
+
+  INSTRUCTIONS: Begin with exactly "2-р хэсэг. ЭРЧИМ ХҮЧНИЙ НИЙЛЭМЖ: Махбодын Зохицол".
+  DO NOT redefine the animal traits. Focus PURELY on the friction or flow between the Elements. Explain who feeds whom, or who clashes with whom. Explain the emotional rhythm (e.g., who is rigid, who is fluid). Discuss health/physical compatibility (e.g., what organs or energies they support in each other). Conclude how they balance this dynamic.
+
+  STYLE GUIDE REFERENCE (Model your structure, depth, and tone exactly after this):
+  ${CONFIG.REFERENCES.PART_2}
   `;
   const r2 = callGeminiAPI(prompt2, apiKey, CONFIG.TEMPERATURE);
 
+  // 3rd CALL: Mindset (Menge)
   const prompt3 = `
   ${SYSTEM_PROMPT}
-  TASK: Write PART 3 ONLY.
-  Make it approximately 500 words.
+  TASK: Write PART 3 ONLY (Mindset & Spiritual Connection).
 
-  DATA FOR PART 3:
-  - Male Menge: ${male.mengeName} (${male.mengeElement})
-  - Female Menge: ${female.mengeName} (${female.mengeElement})
-  - Menge Relation: ${relations.menge}
-  START PART 3 WITH EXACTLY: "3-р хэсэг: ОЮУН САНААНЫ ХОЛБООС - Мэнгэний Таарамж"
+  DATA:
+  - Эрэгтэйн мэнгэ: ${male.mengeName} (${male.mengeElement} махбод)
+  - Эмэгтэйн мэнгэ: ${female.mengeName} (${female.mengeElement} махбод)
+  - Мэнгэний харилцаа: ${relations.menge}
+
+  INSTRUCTIONS: Begin with exactly "3-р хэсэг. ОЮУН САНААНЫ ХОЛБООС: Мэнгэний Таарамж".
+  Analyze their intellectual compatibility and mindset based on Menge. How do their specific Menge elements (e.g., ${male.mengeElement} vs ${female.mengeElement}) interact intellectually? Explain the meaning of their relation ("${relations.menge}") in daily life. Does it cause arguments? How do they resolve them?
+
+  STYLE GUIDE REFERENCE (Model your structure, depth, and tone exactly after this):
+  ${CONFIG.REFERENCES.PART_3}
   `;
   const r3 = callGeminiAPI(prompt3, apiKey, CONFIG.TEMPERATURE);
 
+  // 4th CALL: Lifestyle & Karma (Suudal)
   const prompt4 = `
   ${SYSTEM_PROMPT}
-  TASK: Write PART 4 and PART 5 together.
-  Make it approximately 800 words total.
+  TASK: Write PART 4 ONLY.
 
   DATA FOR PART 4:
-  - Male Suudal: ${male.suudal} (${male.suudalElement})
-  - Female Suudal: ${female.suudal} (${female.suudalElement})
-  - Suudal Relation: ${relations.suudal}
-  - Remedy Required: ${relations.remedy.element} (${relations.remedy.advice})
-  START PART 4 WITH EXACTLY: "4-р хэсэг: АМЬДРАЛЫН ХЭМНЭЛ - Суудлын Өнцөг ба Гал Голомт"
+  - Эрэгтэйн суудал: ${male.suudal} (${male.suudalElement} махбод)
+  - Эмэгтэйн суудал: ${female.suudal} (${female.suudalElement} махбод)
+  - Суудлын харилцаа: ${relations.suudal}
+  - Шаардлагатай засал: ${relations.remedy.element} (${relations.remedy.advice})
 
-  DATA FOR PART 5:
-  - Overall Score: ${relations.score}%
-  - Remedy Advice: ${relations.remedy.advice}
-  START PART 5 WITH EXACTLY: "5-р хэсэг: ҮЙЛИЙН ҮР БА ИРЭЭДҮЙН ЗУРАГЛАЛ - Нэгдсэн Дүгнэлт"
+  INSTRUCTIONS: Begin with exactly "4-р хэсэг. АМЬДРАЛЫН ХЭМНЭЛ: Суудлын Өнцөг & Гал Голомт".
+  Focus on their domestic life, finances, and home environment based on Suudal. Explain the Husband's Suudal lifestyle, then the Wife's. Explain their specific Suudal relation ("${relations.suudal}") - if it's bad (e.g., Хорт), explain *why* chemically (e.g., Fire burns Earth). Explain the practical remedy (${relations.remedy.advice}) using the 5 elements in their home.
+
+  STYLE GUIDE REFERENCE (Model your structure, depth, and tone exactly after this):
+  ${CONFIG.REFERENCES.PART_4}
   `;
   const r4 = callGeminiAPI(prompt4, apiKey, CONFIG.TEMPERATURE);
 
+  // 5th CALL: Final Verdict
+  const prompt5 = `
+  ${SYSTEM_PROMPT}
+  TASK: Write PART 5 ONLY.
+
+  DATA FOR PART 5:
+  - Нийт нийцлийн оноо: ${relations.score}%
+  - Заслын зөвлөгөө: ${relations.remedy.advice}
+
+  INSTRUCTIONS: Begin with exactly "5-р хэсэг. ҮЙЛИЙН ҮР БА ИРЭЭДҮЙН ЗУРАГЛАЛ Нэгдсэн Дүгнэлт".
+  Give the final karmic verdict. Why did these two souls meet (e.g., a karmic debt, a healing bond)? Based on the ${relations.score}% score, give a realistic, honest conclusion. Emphasize that astrology is a guide, not a final sentence. End with a strong, beautiful blessing.
+
+  STYLE GUIDE REFERENCE (Model your structure, depth, and tone exactly after this):
+  ${CONFIG.REFERENCES.PART_5}
+  `;
+  const r5 = callGeminiAPI(prompt5, apiKey, CONFIG.TEMPERATURE);
+
   return {
-    text: header.trim() + "\n\n" + r1.text.trim() + "\n\n" + r2.text.trim() + "\n\n" + r3.text.trim() + "\n\n" + r4.text.trim(),
-    usage: (r1.usage||0) + (r2.usage||0) + (r3.usage||0) + (r4.usage||0)
+    text: header.trim() + "\n\n" + r1.text.trim() + "\n\n" + r2.text.trim() + "\n\n" + r3.text.trim() + "\n\n" + r4.text.trim() + "\n\n" + r5.text.trim(),
+    usage: (r1.usage||0) + (r2.usage||0) + (r3.usage||0) + (r4.usage||0) + (r5.usage||0)
   };
 }
 
@@ -546,16 +634,34 @@ function callGeminiAPI(prompt, apiKey, temp, requireJson = false) {
 
   if (requireJson) payload.generationConfig.responseMimeType = "application/json";
 
-  const res = UrlFetchApp.fetch(url, { "method": "post", "contentType": "application/json", "payload": JSON.stringify(payload), "muteHttpExceptions": true });
-  const json = JSON.parse(res.getContentText());
+  const maxAttempts = 3;
+  let lastErrorMsg = "";
 
-  if (json.candidates && json.candidates[0].content) {
-      return {
-          text: json.candidates[0].content.parts[0].text,
-          usage: json.usageMetadata ? json.usageMetadata.totalTokenCount : 0
-      };
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    const res = UrlFetchApp.fetch(url, { "method": "post", "contentType": "application/json", "payload": JSON.stringify(payload), "muteHttpExceptions": true });
+
+    if (res.getResponseCode() === 429 || res.getResponseCode() >= 500) {
+        lastErrorMsg = res.getContentText();
+        Utilities.sleep(attempt * 2000); // 2s, then 4s wait
+        continue;
+    }
+
+    try {
+        const json = JSON.parse(res.getContentText());
+        if (json.candidates && json.candidates[0].content) {
+            return {
+                text: json.candidates[0].content.parts[0].text,
+                usage: json.usageMetadata ? json.usageMetadata.totalTokenCount : 0
+            };
+        }
+        lastErrorMsg = res.getContentText();
+    } catch(e) {
+        lastErrorMsg = e.toString() + " | " + res.getContentText();
+        Utilities.sleep(attempt * 2000);
+    }
   }
-  throw new Error(`Gemini API Error: ${res.getContentText()}`);
+
+  throw new Error(`Gemini API Error after ${maxAttempts} attempts: ${lastErrorMsg}`);
 }
 
 function createPdfSafely(name, content, templateId, folderId) {
@@ -584,10 +690,17 @@ function createPdfSafely(name, content, templateId, folderId) {
 
   // Rule 6: Locate and replace the EXACT placeholder safely
   let insertionIndex = -1;
-  const searchResult = body.findText("(?i){{\s*report\s*}}");
+  let textAttributes = {};
+
+  const searchResult = body.findText("(?i){{\\s*report\\s*}}");
 
   if (searchResult) {
     const element = searchResult.getElement();
+    const textElement = element.asText();
+
+    // Extract exact font formatting to inherit
+    textAttributes = textElement.getAttributes();
+
     const paragraphToReplace = element.getParent();
     insertionIndex = body.getChildIndex(paragraphToReplace);
     paragraphToReplace.removeFromParent();
@@ -600,16 +713,36 @@ function createPdfSafely(name, content, templateId, folderId) {
     if (pText.length > 0) {
         let p = body.insertParagraph(insertionIndex, pText);
 
-        if (pText.length > 50) p.setAlignment(DocumentApp.HorizontalAlignment.JUSTIFY);
+        // Inherit user's custom font and size from {{report}} placeholder
+        let pTextElement = p.editAsText();
 
-        if (/^\d-р хэсэг:/.test(pText)) {
-            p.setHeading(DocumentApp.ParagraphHeading.HEADING2);
-            p.setBold(true);
-            p.setSpacingBefore(15);
+        // Clean inherited attributes to only keep FontFamily and FontSize
+        if (textAttributes[DocumentApp.Attribute.FONT_FAMILY]) {
+            pTextElement.setFontFamily(textAttributes[DocumentApp.Attribute.FONT_FAMILY]);
+        }
+        if (textAttributes[DocumentApp.Attribute.FONT_SIZE]) {
+            pTextElement.setFontSize(textAttributes[DocumentApp.Attribute.FONT_SIZE]);
+        }
+
+        // Alignment
+        if (pText.length > 50) {
+            p.setAlignment(DocumentApp.HorizontalAlignment.JUSTIFY);
+        }
+
+        if (/^\d-р хэсэг/.test(pText)) {
+            // Only bold and slightly increase size, preserving user's font (e.g. Oswald)
+            pTextElement.setBold(true);
+            if (textAttributes[DocumentApp.Attribute.FONT_SIZE]) {
+                pTextElement.setFontSize(textAttributes[DocumentApp.Attribute.FONT_SIZE] + 2); // e.g. 13 -> 15
+            } else {
+                pTextElement.setFontSize(14);
+            }
+            p.setSpacingBefore(20);
+            p.setSpacingAfter(10);
         } else {
             p.setLineSpacing(1.5);
+            p.setSpacingAfter(10);
         }
-        p.setSpacingAfter(10);
     }
   }
 

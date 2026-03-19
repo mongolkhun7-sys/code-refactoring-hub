@@ -10,7 +10,7 @@ const CONFIG = {
   PRODUCT_NAME: "Хосын Нийцлийн Алтан Тайлан",
   SHEET_NAME: "Sheet1",
   BATCH_SIZE: 3, 
-  GEMINI_MODEL: "gemini-2.5-flash", 
+  GEMINI_MODEL: "gemini-2.0-flash",
   TEMPERATURE: 0.3, 
 
   COLUMNS: {
@@ -291,13 +291,8 @@ function main() {
         const totalTokens = (normalized.usage || 0) + reportResult.usage;
         const now = Utilities.formatDate(new Date(), Session.getScriptTimeZone(), "yyyy-MM-dd HH:mm");
 
-        pdfCell.setValue(pdfUrl); 
-        statusCell.setValue("АМЖИЛТТАЙ"); 
-        tokenCell.setValue(totalTokens);
-        debugCell.setValue(JSON.stringify(coupleData)); 
-        dateCell.setValue(now);   
-        verCell.setValue(CONFIG.VERSION);  
-        errorCell.setValue(""); 
+        const outputRange = sheet.getRange(i + 1, COLS.PDF + 1, 1, 7);
+        outputRange.setValues([[pdfUrl, "АМЖИЛТТАЙ", totalTokens, JSON.stringify(coupleData), now, CONFIG.VERSION, ""]]);
         
         processedCount++; 
 
@@ -772,18 +767,35 @@ function sendUChatProven(userNs, pdfUrl, name, token) {
     }
   };
 
-  const res = UrlFetchApp.fetch(CONFIG.UCHAT.ENDPOINT, {
-    method: "post",
-    headers: { Authorization: "Bearer " + token, "Content-Type": "application/json" },
-    payload: JSON.stringify(payload), muteHttpExceptions: true
-  });
+  const maxAttempts = 3;
+  let lastErrorMsg = "";
 
-  const status = res.getResponseCode(); 
-  const body = res.getContentText();
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    const res = UrlFetchApp.fetch(CONFIG.UCHAT.ENDPOINT, {
+      method: "post",
+      headers: { Authorization: "Bearer " + token, "Content-Type": "application/json" },
+      payload: JSON.stringify(payload), muteHttpExceptions: true
+    });
 
-  if (status < 200 || status >= 300) throw new Error("DELIVERY HTTP " + status + ": " + body.substring(0, 200));
-  const json = JSON.parse(body);
-  if (json.status !== "ok" && json.success !== true) throw new Error("DELIVERY API failed: " + JSON.stringify(json));
+    const status = res.getResponseCode();
+    const body = res.getContentText();
+
+    if (status >= 200 && status < 300) {
+      const json = JSON.parse(body);
+      if (json.status === "ok" || json.success === true) {
+        return; // Success
+      } else {
+        lastErrorMsg = "DELIVERY API failed: " + JSON.stringify(json);
+      }
+    } else {
+      lastErrorMsg = "DELIVERY HTTP " + status + ": " + body.substring(0, 200);
+    }
+
+    // If not success, wait and retry
+    Utilities.sleep(attempt * 2000);
+  }
+
+  throw new Error(`UChat Delivery Error after ${maxAttempts} attempts: ${lastErrorMsg}`);
 }
 
 // --- КОДЫН ТӨГСГӨЛ ---
